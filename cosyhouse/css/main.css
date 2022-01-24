@@ -1,0 +1,2312 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Regular"),
+    url("SFPRODISPLAYREGULAR.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("TimesNewRomanPSMT.woff2") format("woff2"),
+    url("TimesNewRomanPSMT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Madelon Script";
+  src: url("MadelonScript.woff2") format("woff2"),
+    url("MadelonScript.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-color {
+  background-color: #fff;
+}
+
+.navbar {
+  position: absolute;
+  height: 80px;
+}
+
+.navbar-logo {
+  padding-left: 50px;
+}
+
+.topnav-right {
+  position: absolute;
+  right: 40px;
+}
+
+.nav-item {
+  font-family: "SF Pro Display";
+  color: #666666;
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: #000000;
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel-indicators {
+  margin-bottom: 5px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: 4px;
+  opacity: 0.2;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-products {
+  margin-top: 60px;
+}
+
+.sm-title p {
+  font-family: "Madelon Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+  margin: 0px;
+}
+
+.main-title h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+  margin: -10px;
+}
+
+.main-slogan p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #9f4d28;
+  opacity: 0.8;
+  text-align: center;
+  letter-spacing: 0.25em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.products-box-fp {
+  padding-top: 30px;
+}
+
+a.fp-item:hover {
+  text-decoration: none !important;
+}
+
+a.fp-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.fp-item img {
+  width: 180px;
+  height: 180px;
+}
+
+.fp-item h3 {
+  width: 180px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 0.7;
+  color: #000;
+}
+
+.fp-item p {
+  width: 180px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000;
+  opacity: 0.4;
+}
+
+.fp-item p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #9f4d28;
+  opacity: 0.7;
+}
+
+.row-btn {
+  text-align: center;
+}
+
+.more-btn {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 3px solid #000;
+  border-radius: 0%;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+.more-btn a {
+  text-decoration: none;
+  display: block;
+  padding: 0 8px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.zoom {
+  transition: transform 0.5s;
+}
+
+.zoom:hover {
+  transform: scale(1.04);
+  text-decoration: none;
+}
+
+.new-product-container {
+  margin-top: 100px;
+}
+
+.np-img {
+  width: 100%;
+  height: 100%;
+}
+
+.np-row {
+  margin: 0 10px;
+}
+
+.the-lastest p {
+  font-family: "Madelon Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  color: #000000;
+  opacity: 0.7;
+  margin: 0px;
+}
+
+.new-products-title h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: left;
+  color: #000000;
+  opacity: 0.7;
+  margin: -10px 0;
+}
+
+.new-products-slogan p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #9f4d28;
+  opacity: 0.8;
+  text-align: left;
+  letter-spacing: 0.25em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.new-products-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.text-justify-center {
+  text-align: justify;
+}
+
+.col-left {
+  width: 90%;
+}
+
+.col-right {
+  width: 90%;
+}
+
+.pre-order-btn {
+  margin-top: 20px 0px;
+  background-color: #ffffff;
+  border: 3px solid #000;
+  border-radius: 0%;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+.pre-order-btn a {
+  text-decoration: none;
+  display: block;
+  padding: 0 8px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.free-gift {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #9f4d28;
+  opacity: 0.7;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .col-left {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+
+  .products-box-pe {
+    margin-top: 20px !important;
+  }
+
+  .col-right {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+
+  .text-justify-center {
+    text-align: center;
+  }
+
+  .new-product-img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.promotion-event {
+  margin-top: 100px;
+}
+
+.pe-img {
+  width: 100%;
+  height: 100%;
+}
+
+.pe-row {
+  display: flex;
+  margin: 0 10px;
+  padding-top: 30px;
+}
+
+.sale-title h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  opacity: 0.7;
+  margin: -10px 0;
+}
+
+.offer p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #d2915b;
+  margin: 0px;
+}
+
+.offer-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.products-box-pe {
+  margin-top: 80px;
+}
+
+.carousel-bg-color {
+  background-color: #fff !important;
+}
+
+.view-all-product {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  padding: 0;
+}
+
+.view-all-product p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #000;
+  opacity: 0.5;
+  margin: 0 8px;
+  padding: 0;
+}
+
+.view-all-product img {
+  margin: 0px;
+  padding: 0;
+}
+
+footer {
+  background-color: #383836;
+  color: #fff;
+  height: 225px;
+}
+
+.footer-sec-row {
+  margin: 0;
+  padding: 0 40px;
+}
+
+.back-to-top {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 45px;
+  height: 45px;
+  transition: transform 0.5s;
+}
+
+.back-to-top:hover {
+  transform: scale(1.2);
+}
+
+.news-letter h5 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.news-letter p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.free-delivery-text {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.free-delivery-text img {
+  margin: 0px;
+  padding-right: 5px;
+}
+
+.free-delivery-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact-us h5 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.contact-us p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.footer-nav-link {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.footer-nav-link a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+.contact-us-icons {
+  margin: 0 5px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.5s;
+}
+
+.contact-us-icons:hover {
+  transform: scale(1.2);
+}
+
+.copyright-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.custom-control {
+  background-color: transparent;
+  margin: 0 8px;
+  padding: 0px;
+}
+
+.send-email {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-control {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  background: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+.login-icon {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.login-icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-nav-link {
+    display: none;
+  }
+
+  .news-letter {
+    display: none;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .free-delivery-text {
+    display: block;
+  }
+
+  .contact-us-container {
+    display: flex;
+    justify-content: center !important;
+    margin: 0px;
+  }
+
+  .copyright-text p {
+    margin-top: 20px !important;
+    padding: 0px !important;
+    margin-bottom: 0px;
+  }
+}
+
+.dt-hero-container {
+  position: relative;
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.product-detail-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-detail-container h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.product-detail-container ul a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pd-hero {
+  width: 100%;
+  height: 100%;
+}
+
+.pd-row {
+  margin: 0 10px;
+}
+
+.pd-container {
+  margin-top: 80px;
+}
+
+.fa-star {
+  color: #c4c4c4;
+  padding: 0 5px;
+}
+
+.checked {
+  color: #d2915b !important;
+}
+
+.star-rating {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-left: -4px;
+  font-size: 20px;
+}
+
+.pd-right-col h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.star-rating p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #d2915b;
+  margin: 0;
+  padding: 0 5px;
+  padding-top: 1px;
+}
+
+.star-rating p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.5;
+  padding-top: 1px;
+}
+
+.price-text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #9f4d28;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.stock-status p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.pd-right-col h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.pd-desc {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+hr.rounded {
+  border-top: 2px solid #e6e6e6;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.qty-input p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.qty-input input {
+  margin: 0;
+  outline: none;
+  border: 2px solid #e6e6e6;
+  text-align: center;
+  width: 80px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.qty-input {
+  clear: both;
+  position: relative;
+}
+
+.quantity-field {
+  border-radius: 0px !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.qty-input input[type="button"] {
+  background-color: transparent;
+  min-width: 28px;
+  width: auto;
+  transition: all 300ms ease;
+  color: #747474;
+}
+
+.qty-input .button-minus,
+.qty-input .button-plus {
+  font-weight: bold;
+  height: 28px;
+  padding: 0;
+  width: 28px;
+  position: relative;
+}
+
+.qty-input .quantity-field {
+  position: relative;
+  height: 28px;
+  left: -6px;
+  text-align: center;
+  width: 60px;
+  display: inline-block;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -12px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: none !important;
+}
+
+.button-minus {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-right: none !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+
+.color-container p {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+
+.color-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  margin-right: 5px;
+}
+
+.buynow-btn {
+  background: #d2915b;
+  border-radius: 0;
+  color: #fff;
+  height: 45px;
+  width: 140px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.buynow-btn:hover {
+  color: #fff;
+  background: #c7854f;
+  text-decoration: none !important;
+}
+
+.buynow-container {
+  margin-top: 20px !important;
+}
+
+.pd-img-slide {
+  width: 480px;
+  height: 480px;
+}
+
+.share-icon {
+  margin: 0 25px !important;
+  padding: 0 !important;
+  background-color: transparent;
+  outline: none !important;
+  transition: transform 0.3s;
+}
+
+.share-icon:hover {
+  transform: scale(1.1);
+}
+
+.pd-sec-comtainer {
+  margin: 0 10px !important;
+}
+
+.dimensions-container {
+  padding-right: 40px;
+}
+
+.dimensions-container h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.table-title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.table-value {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.v-divider {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 1px;
+  height: 100%;
+  border-right: 2px solid #e6e6e6;
+}
+
+.pg-row h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.rp-container {
+  margin: 0 10px;
+}
+
+.rp-title {
+  text-align: center;
+  position: relative;
+}
+
+.rp-title h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+}
+
+.rp-title p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #9f4d28;
+  opacity: 0.8;
+  letter-spacing: 0.25em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.double-vr-line {
+  border: 4px solid #d2915b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 90%;
+  border-bottom: none;
+  border-top: none;
+}
+
+.pg-r-btn,
+.pg-l-btn {
+  border: none !important;
+  display: block;
+  width: 50px;
+  background-color: #e6e6e6;
+  transition: transform 0.3s;
+}
+
+.pg-r-btn:focus,
+.pg-l-btn:focus {
+  outline: none;
+}
+
+.pg-r-btn:hover,
+.pg-l-btn:hover {
+  background-color: #d2915b;
+  transform: scale(1.01);
+}
+
+.media-display-showonly {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .rp-container {
+    margin-top: 50px;
+  }
+
+  .dimensions-container {
+    padding: 0 !important;
+  }
+
+  .v-divider {
+    border: none;
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .media-display-none {
+    display: none !important;
+  }
+
+  .media-display-showonly {
+    display: block;
+  }
+
+  .media-text-align {
+    display: block;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .dimensions-table {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .pg-row {
+    text-align: center;
+  }
+
+  .pd-row {
+    display: flex !important;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .star-rating {
+    justify-content: center;
+  }
+
+  .stock-status {
+    justify-content: center;
+  }
+
+  .pd-desc {
+    text-align: center;
+  }
+
+  .buynow-container {
+    justify-content: center;
+    margin-top: 60px !important;
+  }
+
+  .share-icon {
+    display: none;
+  }
+
+  .qty-input-container {
+    display: flex !important;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .qty-input {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .color-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.popup {
+  position: absolute;
+  left: 50%;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  transition: background 0.1s linear, border-color 0.1s linear,
+    color 0.1s linear;
+}
+
+.popup {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  top: -150%;
+  max-width: 380px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%) scale(1.2);
+  transition: top 0s 0.2s ease-in-out, opacity 0.2s 0s ease-in-out,
+    transform 0.2s 0s ease-in-out;
+}
+.popup.show {
+  top: 50%;
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: top 0s 0s ease-in-out, opacity 0.2s 0s ease-in-out,
+    transform 0.2s 0s ease-in-out;
+}
+.popup :is(header, .icons, .field) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popup header {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ebedf9;
+}
+header span {
+  font-size: 21px;
+  font-weight: 600;
+}
+header .close,
+.icons a {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+header .close {
+  color: #878787;
+  font-size: 17px;
+  background: #f2f3fb;
+  height: 33px;
+  width: 33px;
+  cursor: pointer;
+}
+header .close:hover {
+  background: #ebedf9;
+}
+.popup .content {
+  margin: 20px 0;
+}
+.popup .icons {
+  margin: 15px 0 20px 0;
+  padding: 0 !important;
+}
+.content p {
+  font-size: 16px;
+}
+.content .icons a {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.icons a i {
+  transition: transform 0.3s ease-in-out;
+}
+.icons a:nth-child(1) {
+  color: #1877f2;
+  border-color: #b7d4fb;
+}
+.icons a:nth-child(1):hover {
+  background: #1877f2;
+}
+.icons a:nth-child(2) {
+  color: #46c1f6;
+  border-color: #b6e7fc;
+}
+.icons a:nth-child(2):hover {
+  background: #46c1f6;
+}
+.icons a:nth-child(3) {
+  color: #e1306c;
+  border-color: #f5bccf;
+}
+.icons a:nth-child(3):hover {
+  background: #e1306c;
+}
+.icons a:nth-child(4) {
+  color: #25d366;
+  border-color: #bef4d2;
+}
+.icons a:nth-child(4):hover {
+  background: #25d366;
+}
+.icons a:nth-child(5) {
+  color: #0088cc;
+  border-color: #b3e6ff;
+}
+.icons a:nth-child(5):hover {
+  background: #0088cc;
+}
+.icons a:hover {
+  color: #fff;
+  border-color: transparent;
+}
+.icons a:hover i {
+  transform: scale(1.2);
+}
+.content .field {
+  margin: 12px 0 -5px 0;
+  height: 45px;
+  border-radius: 4px;
+  padding: 0 5px;
+  border: 1px solid #e1e1e1;
+}
+.field.active {
+  border-color: #d2915b;
+}
+.field i {
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+.field.active i {
+  color: #d2915b;
+}
+.field input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.field button {
+  color: #fff;
+  padding: 5px 18px;
+  background: #d2915b;
+}
+.field button:hover {
+  background: #d2915b;
+}
+
+.product-type {
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
+
+.products-preview-text {
+  background: #efefef;
+  padding: 20px;
+}
+
+.products-preview-text h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.products-preview-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.7;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.shopnow-btn {
+  background: #d2915b;
+  border-radius: 0px;
+  color: #fff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.shopnow-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.shopnow-btn:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .wrapper div:first-child {
+    order: 1;
+  }
+
+  .products-col {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .media-m-0 {
+    margin: 0 !important;
+  }
+
+  .products-preview-text {
+    display: block !important;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto !important;
+    background-color: transparent;
+  }
+
+  .products-preview-text p {
+    text-align: center;
+  }
+
+  .shopnow-btn {
+    margin-top: 10px !important;
+    margin-bottom: 60px !important;
+  }
+}
+
+.abouthero-container {
+  margin-top: 80px;
+}
+
+.about-us {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.7;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.principle-slogan {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.three-principle-row {
+  margin: 60 0 20 0px !important;
+}
+
+.three-principle {
+  width: 285px;
+  height: 285px;
+  background: #f4f4f4;
+  border-radius: 120px;
+  margin: 0 10px;
+  text-align: center;
+  display: block;
+}
+
+.three-principle ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.three-principle h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.three-principle p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.employee-box {
+  background: #f4f4f4;
+  border-radius: 75px;
+}
+
+.staff-board {
+  text-align: center;
+}
+
+.staff-board img {
+  margin-bottom: 30px;
+}
+
+.staff-board h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.staff-board p {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.staff-board-lstline {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.7;
+  margin: 20 0 10px;
+}
+
+.replantation-container {
+  position: relative;
+  text-align: center;
+}
+
+.replantation-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.replantation-text h5 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.replantation-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.shoptoplant-btn {
+  background: #d2915b;
+  border-radius: 0px;
+  color: #fff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 80px;
+}
+
+.shoptoplant-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.servicehero-container {
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.customize-hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.customize-hero h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.customize-hero p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.learn-more {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.learn-more p {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-bottom: -8px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.service-process {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .replantation-text p {
+    display: none;
+  }
+
+  .staff-board-lstline {
+    text-align: center;
+  }
+
+  .media-no-p {
+    padding: 0 !important;
+  }
+
+  .staff-board {
+    margin-bottom: 50px;
+  }
+
+  .media-no-m {
+    margin: 0;
+  }
+
+  .three-principle {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.row-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.step-text {
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.progress-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.step_border {
+  border: 6px solid #cccccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.step_border active {
+  border: 6px solid #d2915b;
+}
+
+.step-line {
+  height: 6px;
+  width: 120px;
+  background-color: #ccc;
+}
+
+.row-number img {
+  border-radius: 50%;
+  border: 6px solid #cccccc;
+  cursor: pointer;
+}
+.row-number .step.active img {
+  border: 6px solid #d2915b;
+}
+.row-number > div {
+  padding: 0;
+}
+.row-number .step-line {
+  width: 100%;
+}
+.row-number .step img {
+  transition: ease-in-out 0.2s;
+}
+
+.step-content h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.step-content h4 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+.step-content p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.step-container {
+  scroll-behavior: smooth;
+  height: 500px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.step-container > div {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+.getstarted-btn {
+  background: #d2915b;
+  border-radius: 0px;
+  color: #fff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
+}
+
+.getstarted-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rm-ws {
+  white-space: normal !important;
+}
+
+.product-case-text {
+  padding: 0 40px;
+  text-align: justify;
+}
+
+.product-case-text h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.product-case-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: -8px;
+}
+
+.product-case-text p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.our-materials {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+}
+
+.our-materials h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.our-materials p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 30px 0 0 0 !important;
+  padding: 0;
+}
+
+.our-materials p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+}
+
+.materials-container {
+  background: #f4f4f4;
+  border-radius: 75px;
+  margin: 80px;
+}
+
+.materials-board {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.materials-board h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 50px;
+}
+
+.materials-board p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.materials-board p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.recommended {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.products-type {
+  height: 60px;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-type h4 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.viewall-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.viewall-btn a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+.custom-text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+}
+
+.custom-text-box h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.custom-text-box p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.custom-fur-btn {
+  position: absolute;
+  bottom: 20%;
+  left: 13%;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+}
+
+.custom-fur-btn a {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .materials-board p2 {
+    display: none;
+  }
+
+  .step-container {
+    height: auto;
+  }
+
+  .our-materials p {
+    display: none;
+  }
+
+  .our-materials p2 {
+    width: 100% !important;
+  }
+  .our-materials {
+    width: 100%;
+  }
+
+  .materials-board p {
+    margin-bottom: 40px;
+  }
+
+  .materials-board img {
+    margin-top: 40px;
+  }
+
+  .materials-board h1 {
+    margin-top: 10px;
+  }
+
+  .media-no-m {
+    margin: 0 !important;
+  }
+}
+
+.contacthero-container {
+  margin-top: 80px;
+}
+
+.contactus-hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contactus-hero-text h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.contactus-hero-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contact-us-info-container {
+  margin-top: 80px;
+}
+
+.cu-info-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.cu-info-title h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  margin: 0;
+}
+
+.contact-info {
+  margin: 20px 0;
+}
+
+.contact-info p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.feeback-btn {
+  background: #d2915b;
+  border-radius: 0px;
+  color: #fff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+.feeback-btn-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.feeback-btn:hover {
+  color: #fff;
+}
+
+.thx-for-submit {
+  font-family: "Madelon Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 40px;
+}
+
+.FAQ-hero-text {
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100% !important;
+}
+
+.FAQ-hero-text h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.FAQ-hero-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.faq-text {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.faq-text h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.faq-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
+  opacity: 0.5;
+  margin-top: 50px;
+}
+
+.fundraising-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+}
+
+.fundraising-text h1 {
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.fundraising-text h2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.fundraising-text p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.trees-planted {
+  background: hsla(0, 0%, 77%, 0.2);
+  border-radius: 56px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px 0;
+}
+
+.trees-planted-title {
+  font-family: "Madelon Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.trees-planted-slogan {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: #9f4d28;
+  opacity: 0.8;
+  text-align: center;
+  letter-spacing: 0.25em;
+  margin: -20px !important;
+}
+
+.trees-planted h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  color: #000000;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+
+.trees-planted p2 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.planting-locations h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.planting-locations p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.planting-loc-text h1 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .faq-text p {
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  iframe {
+    margin-bottom: 40px;
+  }
+
+  .feeback-btn-container {
+    top: 80% !important;
+  }
+}
