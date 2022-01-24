@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosy House</title>
+    <link
+      rel="icon"
+      href="images/title-icon2.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link href="css/min-main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- body code goes here -->
+    <nav
+      id="navbartop"
+      class="navbar fixed-top navbar-expand-lg navbar-light nav-color"
+    >
+      <a class="navbar-logo" href="CH_index.html"
+        ><img
+          src="images/nav-logo.png"
+          class="img-fluid zoom"
+          alt="Placeholder image"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse bg-white"
+        id="navbarSupportedContent1"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_index.html">Home</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_products.html">Products</a>
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="CH_service.html">Service</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_about.html">About</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid servicehero-container mx-0 px-0">
+      <img
+        src="images/service-hero.png"
+        class="img-fluid w-100"
+        alt="Placeholder image"
+      />
+      <div class="container customize-hero">
+        <img
+          src="images/custom-hero-logo.png"
+          class="mb-3 img-fluid"
+          alt="Placeholder image"
+        />
+        <h1>
+          CUSTOMIZE YOUR<br />
+          EXCLUSIVE FURNITURE NOW.
+        </h1>
+        <p class="media-display-none">
+          Have you ever dreamed of having furniture that suits your taste and
+          needs, but you could not find it in any shop? Then you have come to
+          the right place, because we, Cosy House, offer you the freedom to
+          design a piece of furniture according to your taste and needs! With a
+          dozen materials to choose from and any design you desire, Cosy House
+          can make anything come true!
+        </p>
+      </div>
+      <a href="#process" class="container mx-auto learn-more">
+        <p class="zoom">Learn More</p>
+        <img
+          src="images/learn-more.svg"
+          class="img-fluid"
+          alt="Placeholder image"
+        />
+      </a>
+    </div>
+
+    <div class="container-fluid service-process mb-5">
+      <ul class="no-bullets">
+        <li class="sm-title"><p>Customization</p></li>
+        <li class="main-title"><h2>Service Process</h2></li>
+        <li class="main-slogan"><p>Cosy House Made For You.</p></li>
+      </ul>
+    </div>
+
+    <div class="container-fluid" id="process">
+      <div class="mb-3">
+        <div class="row-number">
+          <div class="d-flex flex-column step active" data-target="#step1">
+            <span class="step-text">STEP 1</span>
+            <img src="images/Step/step1.png" alt="error" />
+          </div>
+          <div class="col-lg-1">
+            <span>&nbsp;</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="d-flex flex-column step" data-target="#step2">
+            <span class="step-text">STEP 2</span>
+            <img src="images/Step/step2.png" alt="error" />
+          </div>
+          <div class="col-lg-1">
+            <span>&nbsp;</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="d-flex flex-column step" data-target="#step3">
+            <span class="step-text">STEP 3</span>
+            <img src="images/Step/step3.png" alt="error" />
+          </div>
+          <div class="col-lg-1">
+            <span>&nbsp;</span>
+            <div class="step-line"></div>
+          </div>
+          <div class="d-flex flex-column step" data-target="#step4">
+            <span class="step-text">STEP 4</span>
+            <img src="images/Step/step4.png" alt="error" />
+          </div>
+        </div>
+        <script>
+          const steps = document.querySelectorAll(".step");
+          steps.forEach((ele) => {
+            ele.addEventListener("click", () => {
+              // change active style
+              steps.forEach((ele2) => {
+                ele2.classList.remove("active");
+              });
+              ele.classList.add("active");
+
+              let t = document.querySelector(ele.dataset.target);
+              let newXPos = t.offsetLeft - 15;
+              document.querySelector(".step-container").scrollTo(newXPos, 0);
+            });
+          });
+        </script>
+
+        <div class="step-container">
+          <div id="step1">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 mx-0 px-0 mt-5 step-content">
+                  <h3>STEP 1</h3>
+                  <h4>Fill Out The Form</h4>
+                  <p class="rm-ws">
+                    Looking for your dream custom-made furniture? Just fill out
+                    the form and give us all the information that we need so we
+                    can help you make your dream come true!
+                  </p>
+                  <button type="button" class="btn zoom getstarted-btn">
+                    <a href="https://forms.gle/GWuSWt3a3XiaoRFB9" target="blank"
+                      >GET STARTED</a
+                    >
+                  </button>
+                </div>
+                <div class="col-xl-7">
+                  <img
+                    src="images/Step/01.png"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="step2">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 mx-0 px-0 mt-5 step-content">
+                  <h3>STEP 2</h3>
+                  <h4>Get In Contact With Us</h4>
+                  <p class="rm-ws">
+                    Once you fill out the form, Cosy Home’s designer will
+                    contact you to consult and discuss which design and material
+                    is the best for your project. Again, you will receive a free
+                    design and planning service to ensure that your furniture is
+                    exactly how you envisioned it using a computer software.
+                  </p>
+                </div>
+                <div class="col-xl-7">
+                  <img
+                    src="images/Step/02.png"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="step3">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 mx-0 px-0 mt-5 step-content">
+                  <h3>STEP 3</h3>
+                  <h4>We’ll Get Started</h4>
+                  <p class="rm-ws">
+                    Our designers will begin their work as soon as possible. We
+                    will contact you via email or social media to send you an
+                    example of a finished custom piece of furniture of yours. If
+                    you would like to make any changes to the design or
+                    material, please feel free to contact us, as we want to
+                    provide you with the best custom furniture experience.
+                  </p>
+                </div>
+                <div class="col-xl-7">
+                  <img
+                    src="images/Step/03.png"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="step4">
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+                <div class="col-xl-4 mx-0 px-0 mt-5 step-content">
+                  <h3>STEP 4</h3>
+                  <h4>Final Step of <br />Reaching Your Dream</h4>
+                  <p class="rm-ws">
+                    We will get back to you as soon as your furniture is ready.
+                    You then have the choice of either coming into our shop to
+                    collect your new furniture, or we Cosy House offer a cash on
+                    delivery service when we deliver your furniture to your
+                    location. Thank you for shopping at Cosy House and you will
+                    receive your receipt upon delivery of your choice.
+                  </p>
+                </div>
+                <div class="col-xl-7">
+                  <img
+                    src="images/Step/04.png"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid media-display-none">
+      <div class="container">
+        <ul class="no-bullets">
+          <li class="main-title">
+            <h2>Customization Product Case About Us</h2>
+          </li>
+          <li class="main-slogan"><p>Find Your Inspiration Here.</p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5 d-flex flex-column media-display-none">
+      <div class="container m-0 p-0 d-flex justify-content-center mx-auto">
+        <div class="row p-0 m-0">
+          <div
+            class="
+              col-xl-4
+              p-0
+              m-0
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="container product-case-text m-0">
+              <h1>The Albany Desk</h1>
+              <p>by Mr. James Teo</p>
+              <p2
+                >The Albany Desk is part of the Albany Living &amp; Dining
+                Collection. Featuring intracate interwoven wood panelling style
+                veneer with contrasting grains and extraordinary crafstmanship.
+                The desk benfits from one large cupboard section to the left
+                side and two drawers on the right. Sleek metal handle details
+                finish off this stylish addition to any home office.</p2
+              >
+            </div>
+          </div>
+          <div class="col-xl-8 p-0 m-0">
+            <img
+              src="images/Albany.png"
+              class="img-fluid w-100"
+              alt="Placeholder image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container m-0 p-0 d-flex justify-content-center mx-auto">
+        <div class="row p-0 m-0">
+          <div class="col-xl-4 p-0">
+            <img
+              src="images/IndustrialTV1.png"
+              class="img-fluid w-100"
+              alt="Placeholder image"
+            />
+          </div>
+          <div
+            class="
+              col-xl-4
+              p-0
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="container product-case-text">
+              <h1>Industrial TV Unit</h1>
+              <p>by Mdm. Noni</p>
+              <p2
+                >Sometimes the simplest of things are the best and that stands
+                true with the Industrial TV unit. Made up of a robust solid wood
+                and paired with dark grey metal door handles and legs. There's
+                enough space to store your television system with gaps at the
+                back to thread wires through. Team with the rest of the
+                collection to complete the look.</p2
+              >
+            </div>
+          </div>
+          <div class="col-xl-4 p-0">
+            <img
+              src="images/IndustrialTV2.png"
+              class="img-fluid w-100"
+              alt="Placeholder image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container m-0 p-0 d-flex justify-content-center mx-auto mb-5">
+        <div class="row p-0 m-0">
+          <div class="col-xl-8 p-0 m-0">
+            <img
+              src="images/Hudson.png"
+              class="img-fluid w-100"
+              alt="Placeholder image"
+            />
+          </div>
+          <div
+            class="
+              col-xl-4
+              p-0
+              m-0
+              d-flex
+              align-items-center
+              justify-content-center
+            "
+          >
+            <div class="container product-case-text m-0">
+              <h1>The Hudson Bed</h1>
+              <p>by Ms. Karina</p>
+              <p2
+                >The Hudson Bed is simply divine! Built from a mix of solid oak
+                and oak veneers, the bed has a high headboard upholstered in a
+                gorgeous linen fabric with a horizontal stitched divide and and
+                studded all around, and framed by a stunning oak surround. The
+                sides of the bed are panelled with timber and oak veneers. The
+                footend features two very deep drawers which offer great storage
+                for bedding or additional scatter cushions and throws.</p2
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid position-relative p-0 m-0">
+      <img
+        src="images/our-materials.png"
+        class="img-fluid w-100"
+        alt="Placeholder image"
+      />
+      <div class="container our-materials">
+        <h1>OUR MATERIALS</h1>
+        <p>Learn about the amazing Eco-Log we use.</p>
+        <p2
+          >It's no secret that one of our jobs is to take care of our planet.
+          But how does that translate to furniture? When you choose to invest in
+          eco-friendly furniture, you are doing more than you think! Eco-wood
+          has a natural and more sustainable finish and helps reduce waste. And
+          finally, the design is practical too!</p2
+        >
+      </div>
+    </div>
+
+    <div
+      class="
+        container
+        materials-container
+        d-flex
+        flex-column
+        mx-auto
+        justify-content-center
+      "
+    >
+      <div class="row d-flex justify-content-center pt-5 media-no-p">
+        <div class="col-xl-4 materials-board">
+          <img
+            src="images/material/oak.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <h1>Oak Wood</h1>
+          <p>
+            Oak trees are native to the northern hemisphere. There are around
+            600 species of oak, both deciduous and evergreen. Oakwood is
+            remarkably strong, heavy, and durable. It is also resistant to
+            fungal attacks.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">Pinkish red to blonde.</p>
+          <p2>Density</p2>
+          <p class="media-display-none">Very hard and strong.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Varied and openly porous grain patterns.</p>
+        </div>
+        <div class="col-xl-4 materials-board">
+          <img
+            src="images/material/maple.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <h1>Maple Wood</h1>
+          <p>
+            Maple trees are mostly native to Asia. But they are also found in
+            Europe, North Africa, and North America. The maple wood is sturdy,
+            resistant to splitting, and durable. It can be wiped clean with a
+            damp cloth, making it ideal for kitchen furniture.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">
+            Sapwood color ranges from nearly white to an off-white cream color.
+          </p>
+          <p2>Density</p2>
+          <p class="media-display-none">Moderately hard but strong.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Closed and generally straight, but may be wavy.</p>
+        </div>
+        <div class="col-xl-4 position-relative materials-board">
+          <img
+            src="images/material/cherry.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <img
+            src="images/material/recommended.png"
+            class="img-fluid recommended media-display-none"
+            alt="Placeholder image"
+          />
+          <h1>Cherry Wood</h1>
+          <p>
+            Cherry wood comes from the cherry fruit tree. Cherry wood has rich
+            color, smooth grain, and flexibility, making it a popular choice for
+            furniture manufacturers. It also steams easily, making it ideal for
+            use in curved designs.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">The color is light pinkish brown when freshly cut.</p>
+          <p2>Density</p2>
+          <p class="media-display-none">Stiff, strong, medium weight, and moderately hard.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Closed and straight.</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center py-5 media-no-p">
+        <div class="col-xl-4 position-relative materials-board">
+          <img
+            src="images/material/mahogany.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <img
+            src="images/material/recommended.png"
+            class="img-fluid recommended media-display-none"
+            alt="Placeholder image"
+          />
+          <h1>Mahogany Wood</h1>
+          <p>
+            Mahogany is one of the most popular hardwood tropical trees.
+            Mahogany wood is prized for its beauty, durability, and color. It is
+            relatively free of voids and pockets. The color darkens over time.
+            As a result, it is a popular choice for furniture.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">Reddish-brown to blood red.</p>
+          <p2>Density</p2>
+          <p class="media-display-none">Medium texture and moderately heavy.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Straight.</p>
+        </div>
+        <div class="col-xl-4 materials-board">
+          <img
+            src="images/material/walnut.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <h1>Walnut Wood</h1>
+          <p>
+            Walnut (black walnut) is one of the most popular woods for furniture
+            in the U.S. The dimensional stability, shock resistance, strength
+            properties, and the rich coloration are the reasons behind its
+            popularity.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">
+            Lighter pale brown to a dark chocolate brown with darker brown
+            streaks. Sapwood is pale yellow-gray to nearly white.
+          </p>
+          <p2>Density</p2>
+          <p class="media-display-none">Medium texture, fairly lightweight.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Moderately open grain.</p>
+        </div>
+        <div class="col-xl-4 materials-board">
+          <img
+            src="images/material/birch.png"
+            class="img-fluid"
+            alt="Placeholder image"
+          />
+          <h1>Birch Wood</h1>
+          <p>
+            Birch trees are widespread in the Northern Hemisphere. Though it is
+            closely related to Oakwood, it is much harder. Birch plywood is
+            probably the most widely used as it is hard, stable, affordable, and
+            readily available.
+          </p>
+          <p2>Color</p2>
+          <p class="media-display-none">Heartwood is light reddish brown with nearly white sapwood.</p>
+          <p2>Density</p2>
+          <p class="media-display-none">Hard, medium weight.</p>
+          <p2>Grain</p2>
+          <p class="media-display-none">Usually straight or slightly wavy with small pores.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-center">
+      <div class="container-fluid footer d-flex flex-column">
+        <div class="d-flex justify-content-center">
+          <a href="#navbartop"
+            ><img
+              src="images/back_to_top.svg"
+              class="img-fluid back-to-top"
+              alt="Placeholder image"
+          /></a>
+        </div>
+        <div class="row d-flex justify-content-center footer-sec-row">
+          <div class="col-xl-3 news-letter">
+            <h5>News Letter</h5>
+            <p>Get notified of limited releases, and more.</p>
+            <div class="send-email d-flex">
+              <img
+                src="images/Gmail.svg"
+                class="img-fluid"
+                alt="Placeholder image"
+              />
+              <form
+                id="email-form"
+                class="custom-control custom-control-inline"
+              >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Please Enter Your E-mail"
+                />
+                <img
+                  onclick="myFunction()"
+                  src="images/Login.svg"
+                  class="img-fluid login-icon"
+                  alt="Placeholder image"
+                />
+              </form>
+
+              <script>
+                function myFunction() {
+                  document.getElementById("email-form").reset();
+                }
+              </script>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="d-flex flex-column">
+              <div class="d-flex free-delivery-text">
+                <img
+                  src="images/announcement.svg"
+                  class="img-fluid"
+                  alt="Placeholder image"
+                />
+                <p>
+                  Price displayed are inclusive of all taxes and duties. Free
+                  delivery for all orders.
+                </p>
+              </div>
+              <div class="d-flex justify-content-center mt-auto">
+                <ul class="footer-nav-link">
+                  <a href="CH_index.html">Home</a>
+                  <a href="CH_products.html">Products</a>
+                  <a href="CH_service.html">Service</a>
+                  <a href="#">About</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div class="col-xl-3 contact-us">
+            <div class="d-flex justify-content-end contact-us-container">
+              <div class="d-flex flex-column align-items-center">
+                <h5>Contact Us</h5>
+                <p>| cosy-service@cosy-house.com |</p>
+                <ul class="no-bullets d-flex m-0">
+                  <a
+                    href="https://web.whatsapp.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Whatsapp.png"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Instagram.svg"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Facebook.svg"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Linkedin.png"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="container-fluid copyright-text d-flex justify-content-center"
+          >
+            <p>Copyright © 2021 Cosy House. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js" defer></script>
+    <script src="js/bootstrap-4.4.1.js" defer></script>
+  </body>
+</html>

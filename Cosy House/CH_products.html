@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosy House</title>
+    <link
+      rel="icon"
+      href="images/title-icon2.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link href="css/min-main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- body code goes here -->
+    <nav
+      id="navbartop"
+      class="navbar fixed-top navbar-expand-lg navbar-light nav-color"
+    >
+      <a class="navbar-logo" href="CH_index.html"
+        ><img
+          src="images/nav-logo.png"
+          class="img-fluid zoom"
+          alt="Placeholder image"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse bg-white"
+        id="navbarSupportedContent1"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_index.html">Home</a>
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="CH_products.html">Products</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_service.html">Service</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_about.html">About</a>
+          </li>
+          <li class="nav-item zoom">
+            <a class="nav-link" href="CH_contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid product-type">
+      <div class="container">
+        <ul class="no-bullets">
+          <li class="main-title"><h2>All Categories</h2></li>
+          <li class="main-slogan"><p>Just What You Needed.</p></li>
+        </ul>
+      </div>
+    </div>
+    <style>
+      .handle-hover *{
+        transition: all ease-in .2s;
+      }
+      .handle-hover:hover{
+        background: black;
+      }
+      .handle-hover:hover img{
+        opacity: .5;
+      }
+      .handle-hover .viewall-btn{
+        opacity: 0;
+      }
+      .handle-hover:hover .viewall-btn{
+        opacity: 1;
+      }
+      .handle-hover:hover .viewall-btn.btn-1{
+        top:40%;
+      }
+      .handle-hover:hover .viewall-btn.btn-2{
+        top:60%;
+      }
+    </style>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-xl-6 d-flex flex-column">
+          <div class="position-relative m-0 p-0 handle-hover">
+            <img
+              src="images/products/Tables.png"
+              class="img-fluid h-100 w-100"
+              alt="Placeholder image"
+            />
+            <button type="button" class="btn viewall-btn btn-1">
+              <a href="product/dining_table.html">Dining Table</a>
+            </button>
+            <button type="button" class="btn viewall-btn btn-2">
+              <a href="product/coffee_table.html">Coffee Table</a>
+            </button>
+          </div>
+          <div class="products-type mb-4">
+            <h4>Tables</h4>
+          </div>
+        </div>
+        <div class="col-xl-6 d-flex flex-column">
+          <div class="position-relative m-0 p-0 handle-hover">
+            <img
+              src="images/products/Chairs.png"
+              class="img-fluid h-100 w-100"
+              alt="Placeholder image"
+            />
+            <button type="button" class="btn viewall-btn btn-1">
+              <a href="product/dining_chair.html">Dining Chair</a>
+            </button>
+            <button type="button" class="btn viewall-btn btn-2">
+              <a href="product/bar_stool.html">Bar Stools</a>
+            </button>
+          </div>
+          <div class="products-type mb-4">
+            <h4>Chairs</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 d-flex flex-column">
+          <div class="position-relative m-0 p-0 handle-hover">
+            <img
+              src="images/products/Lamp.png"
+              class="img-fluid h-100 w-100"
+              alt="Placeholder image"
+            />
+            <button type="button" class="btn viewall-btn">
+              <a href="product/lamp.html">View All</a>
+            </button>
+          </div>
+          <div class="products-type mb-4">
+            <h4>Lamps</h4>
+          </div>
+        </div>
+        <div class="col-xl-6 d-flex flex-column">
+          <div class="position-relative m-0 p-0 handle-hover">
+            <img
+              src="images/products/Decors.png"
+              class="img-fluid h-100 w-100"
+              alt="Placeholder image"
+            />
+            <button type="button" class="btn viewall-btn">
+              <a href="product/decors.html">View All</a>
+            </button>
+          </div>
+          <div class="products-type mb-4">
+            <h4>Decors</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 d-flex flex-column">
+          <div class="position-relative m-0 p-0 handle-hover">
+            <img
+              src="images/products/Clocks.png"
+              class="img-fluid h-100 w-100"
+              alt="Placeholder image"
+            />
+            <button type="button" class="btn viewall-btn">
+              <a href="product/clock.html">View All</a>
+            </button>
+          </div>
+          <div class="products-type mb-4">
+            <h4>Clocks</h4>
+          </div>
+        </div>
+        <div class="col-xl-6 d-flex flex-column position-relative">
+            <img
+              src="images/products/Custom.png"
+              class="img-fluid mb-4"
+              alt="Placeholder image"
+            />
+            <div class="custom-text-box"><h1>CUSTOMIZE YOUR<br>
+              EXCLUSIVE FURNITURE</h1>
+              <p>Have you ever dreamed of having furniture that suits your taste and needs, but you could not find it in any shop? Then you have come to the right place, because we, Cosy House, offer you the freedom to design a piece of furniture according to your taste and needs! With a dozen materials to choose from and any design you desire, Cosy House can make anything come true!</p>
+              </div>
+            <button type="button" class="btn custom-fur-btn zoom">
+                <a href="CH_service.html">MORE</a>
+              </button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-center">
+      <div class="container-fluid footer d-flex flex-column">
+        <div class="d-flex justify-content-center">
+          <a href="#navbartop"
+            ><img
+              src="images/back_to_top.svg"
+              class="img-fluid back-to-top"
+              alt="Placeholder image"
+          /></a>
+        </div>
+        <div class="row d-flex justify-content-center footer-sec-row">
+          <div class="col-xl-3 news-letter">
+            <h5>News Letter</h5>
+            <p>Get notified of limited releases, and more.</p>
+            <div class="send-email d-flex">
+              <img
+                src="images/Gmail.svg"
+                class="img-fluid"
+                alt="Placeholder image"
+              />
+              <form
+                id="email-form"
+                class="custom-control custom-control-inline"
+              >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Please Enter Your E-mail"
+                />
+                <img
+                  onclick="myFunction()"
+                  src="images/Login.svg"
+                  class="img-fluid login-icon"
+                  alt="Placeholder image"
+                />
+              </form>
+
+              <script>
+                function myFunction() {
+                  document.getElementById("email-form").reset();
+                }
+              </script>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="d-flex flex-column">
+              <div class="d-flex free-delivery-text">
+                <img
+                  src="images/announcement.svg"
+                  class="img-fluid"
+                  alt="Placeholder image"
+                />
+                <p>
+                  Price displayed are inclusive of all taxes and duties. Free
+                  delivery for all orders.
+                </p>
+              </div>
+              <div class="d-flex justify-content-center mt-auto">
+                <ul class="footer-nav-link">
+                  <a href="#">Home</a>
+                  <a href="CH_products.html">Products</a>
+                  <a href="CH_service.html">Service</a>
+                  <a href="CH_about.html">About</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div></div>
+          <div class="col-xl-3 contact-us">
+            <div class="d-flex justify-content-end contact-us-container">
+              <div class="d-flex flex-column align-items-center">
+                <h5>Contact Us</h5>
+                <p>| cosy-service@cosy-house.com |</p>
+                <ul class="no-bullets d-flex m-0">
+                  <a
+                    href="https://web.whatsapp.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Whatsapp.png"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Instagram.svg"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Facebook.svg"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    class="contact-us-icons"
+                    ><img
+                      src="images/Linkedin.png"
+                      class="img-fluid"
+                      alt="Placeholder image"
+                  /></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="container-fluid copyright-text d-flex justify-content-center"
+          >
+            <p>Copyright © 2021 Cosy House. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js" defer></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js" defer></script>
+    <script src="js/bootstrap-4.4.1.js" defer></script>
+  </body>
+</html>
