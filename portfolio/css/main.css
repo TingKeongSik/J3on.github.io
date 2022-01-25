@@ -5,6 +5,21 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+
 .nav-color {
   height: 86px;
   background-color: #fff;
@@ -110,6 +125,7 @@ html {
 
 .Hero {
   position: relative;
+  margin-bottom: -6px;
 }
 
 .hero_bg {
@@ -153,17 +169,34 @@ html {
   text-align: justify;
 }
 
-.down_button{
+.down_button {
   background-color: transparent;
   position: absolute;
   top: 92%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-
-.down_button img{
+.down_button img {
   margin: auto;
   width: 60px;
   height: 60px;
+}
+
+.resume {
+  height: 1000px;
+  border-radius: 40px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #363636;
+}
+
+.resume {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 0px;
 }

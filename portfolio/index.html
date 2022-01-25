@@ -22,17 +22,6 @@
   <body>
     <!-- body code goes here -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light nav-color">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div
         class="navbar-collapse collapse bg-white"
         id="navbarSupportedContent1"
@@ -49,7 +38,7 @@
             >
           </li>
           <li class="nav-item active zoom">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#resume"
               >Resume <span class="sr-only">(current)</span></a
             >
           </li>
@@ -83,6 +72,7 @@
       <video
         class="hero_bg w-100 h-100"
         src="sourse/Hero_BG.mp4"
+        type="video/mp4"
         loop
         muted
         autoplay
@@ -93,7 +83,8 @@
         <p>
           I'm a Visual Artist, currently studying at Multimedia University
           (MMU), Cyberjaya. From what I have learned at university, I believe
-          Visual Art is about learning new things and narrative, rather than just a good, eye-catching out-look.
+          Visual Art is about learning new things and narrative, rather than
+          just a good, eye-catching out-look.
         </p>
       </div>
       <a
@@ -108,7 +99,12 @@
       </a>
     </div>
 
-    <div id="resume" class="container-fluid"></div>
+    <div class="container-fluid">
+      <div class="resume d-flex flex-row">
+        <h1 id="resume"></h1>
+      </div>
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.4.1.min.js"></script>
 
