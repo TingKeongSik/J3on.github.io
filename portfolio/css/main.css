@@ -113,16 +113,13 @@ html {
 }
 
 .hero_bg {
-  margin-top: 86px;
-  padding-right: -200px;
-  /* background: url(/sourse/Hero_BG_1.mp4);
-  filter: blur(6px); */
+  margin-top: 57px;
 }
 
 .Hello {
   padding-left: 64px;
   position: absolute;
-  top: 14%;
+  top: 40%;
   left: 0%;
 }
 
@@ -154,4 +151,19 @@ html {
   line-height: 17px;
   color: rgba(54, 54, 54, 0.6);
   text-align: justify;
+}
+
+.down_button{
+  background-color: transparent;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.down_button img{
+  margin: auto;
+  width: 60px;
+  height: 60px;
 }
