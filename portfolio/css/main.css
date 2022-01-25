@@ -200,3 +200,7 @@ html {
   color: #fff;
   margin-bottom: 0px;
 }
+
+#navbar-list {
+  transition: all .2s ease-in-out
+}
