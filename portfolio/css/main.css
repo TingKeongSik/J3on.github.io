@@ -103,7 +103,7 @@ html {
 }
 
 #nav-icon1.open span:nth-child(1) {
-  top: 10px;
+  top: 8px;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
@@ -116,7 +116,7 @@ html {
 }
 
 #nav-icon1.open span:nth-child(3) {
-  top: 10px;
+  top: 8px;
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
@@ -181,6 +181,19 @@ html {
   margin: auto;
   width: 60px;
   height: 60px;
+  animation: float 4s infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 
 .resume {
