@@ -232,7 +232,7 @@ html {
   font-size: 40px;
   align-items: center;
   color: #ffffff;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .About_me h2 {
@@ -242,13 +242,13 @@ html {
   font-size: 26px;
   align-items: center;
   color: #ffffff;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .About_me img {
   width: 24px;
   height: 24px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .social_link {
@@ -313,4 +313,13 @@ html {
   color: #ffffff;
   text-align: right;
   opacity: 60%;
+}
+
+.Skills_type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  text-align: left;
 }
