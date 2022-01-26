@@ -185,20 +185,20 @@ html {
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-10px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 .resume {
-  height: 1000px;
-  border-radius: 40px;
+  height: auto;
+  border-radius: 60px;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -215,5 +215,102 @@ html {
 }
 
 #navbar-list {
-  transition: all .2s ease-in-out
+  transition: all 0.2s ease-in-out;
+}
+
+.vl {
+  background: #fff;
+  width: 4px;
+  height: 319px;
+  border-radius: 5px;
+}
+
+.About_me h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.About_me h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.About_me img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+.social_link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #fff;
+}
+
+.social_link:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 70%;
+}
+
+.hl {
+  background: #fff;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  margin-left: 15px;
+  opacity: 30%;
+}
+
+.resume_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  align-items: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 110px;
+}
+
+.lg_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+}
+
+.sm_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  align-items: center;
+  color: #ffffff;
+  text-align: right;
+  opacity: 60%;
 }
