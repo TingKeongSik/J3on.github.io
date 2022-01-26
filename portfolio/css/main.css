@@ -334,5 +334,10 @@ html {
   color: #ffffff;
   text-align: left;
   opacity: 60%;
-  margin-top: 5px;
+}
+
+.w3-border{
+  background-color: transparent;
+  border-radius: 20px;
+  opacity: 70%;
 }

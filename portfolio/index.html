@@ -1,251 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title class="navbar-brand">J3on.</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="icon"
+      href="sourse/yellow_dot.png"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title class="navbar-brand">J3on.</title>
-  <!-- Bootstrap -->
-  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
-  <link href="css/main.css" rel="stylesheet" />
-  <link rel="icon" href="sourse/yellow_dot.png" sizes="64x64" type="image/png" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <!-- body code goes here -->
-  <nav class="navbar fixed-top navbar-expand navbar-light nav-color">
-    <div class="navbar-collapse collapse bg-white d-flex justify-content-between px-5" id="navbarSupportedContent1">
-      <a class="navbar-brand" href="index.html">J3on.</a>
-      <ul id="navbar-list" class="navbar-nav d-flex flex-row mx-5 justify-content-around py-0"
-        style="width: 0; overflow: hidden">
-        <li class="nav-item active zoom">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active zoom">
-          <a class="nav-link" href="#resume">Resume <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active zoom">
-          <a class="nav-link" href="#">2D <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active zoom">
-          <a class="nav-link" href="#">3D <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active zoom">
-          <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-      <div id="nav-icon1">
-        <span></span>
-        <span></span>
-        <span></span>
+  <body>
+    <!-- body code goes here -->
+    <nav class="navbar fixed-top navbar-expand navbar-light nav-color">
+      <div
+        class="navbar-collapse collapse bg-white d-flex justify-content-between px-5"
+        id="navbarSupportedContent1"
+      >
+        <a class="navbar-brand" href="index.html">J3on.</a>
+        <ul
+          id="navbar-list"
+          class="navbar-nav d-flex flex-row mx-5 justify-content-around py-0"
+          style="width: 0; overflow: hidden"
+        >
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="#resume"
+              >Resume <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="#"
+              >2D <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="#"
+              >3D <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active zoom">
+            <a class="nav-link" href="#"
+              >Contact <span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+        <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="Hero container-fluid w-100">
-    <video class="hero_bg w-100 h-100" src="sourse/Hero_BG.mp4" type="video/mp4" loop muted autoplay></video>
-    <div class="Hello">
-      <h1>Hello</h1>
-      <h2>I’m Jason Ting.</h2>
-      <p>
-        I'm a Visual Artist, currently studying in Diploma of 3D Modelling &
-        Animation at Multimedia University (MMU), Cyberjaya. From what I have
-        learned at university, I believe Visual Art is about learning new
-        things and narrative, rather than just a good, eye-catching outlook.
-      </p>
+    <div class="Hero container-fluid w-100">
+      <video
+        class="hero_bg w-100 h-100"
+        src="sourse/Hero_BG.mp4"
+        type="video/mp4"
+        loop
+        muted
+        autoplay
+      ></video>
+      <div class="Hello">
+        <h1>Hello</h1>
+        <h2>I’m Jason Ting.</h2>
+        <p>
+          I'm a Visual Artist, currently studying in Diploma of 3D Modelling &
+          Animation at Multimedia University (MMU), Cyberjaya. From what I have
+          learned at university, I believe Visual Art is about learning new
+          things and narrative, rather than just a good, eye-catching outlook.
+        </p>
+      </div>
+      <a
+        href="#resume"
+        class="container down_button d-flex justify-content-center"
+      >
+        <img
+          src="sourse/Caret_down.svg"
+          class="img-fluid zoom"
+          alt="Placeholder image"
+        />
+      </a>
     </div>
-    <a href="#resume" class="container down_button d-flex justify-content-center">
-      <img src="sourse/Caret_down.svg" class="img-fluid zoom" alt="Placeholder image" />
-    </a>
-  </div>
 
-  <div id="resume" class="container-fluid">
-    <div class="resume m-0 p-0">
-      <div class="row d-flex justify-content-center p-5">
-        <div class="col-xl-6 pr-4">
-          <div class="p-0 m-0 d-flex flex-row align-items-center">
-            <div class="vl"></div>
-            <div class="p-0 m-0 d-flex flex-column About_me">
-              <h1>JASON TING KEONG SIK</h1>
-              <h2>Visual Artist</h2>
-              <div class="d-flex flex-row p-0 m-0 mt-5">
-                <img src="sourse/Instagram.svg" class="img-fluid" alt="Placeholder image" />
-                <a class="social_link my-auto pl-2" href="https://www.instagram.com/ting_ting.k.s/" target="blank">
-                  @ting_ting.k.s
-                </a>
+    <div id="resume" class="container-fluid">
+      <div class="resume m-0 p-0">
+        <div class="row d-flex justify-content-center p-5">
+          <div class="col-xl-6 pr-4">
+            <div class="p-0 m-0 d-flex flex-row align-items-center">
+              <div class="vl"></div>
+              <div class="p-0 m-0 d-flex flex-column About_me">
+                <h1>JASON TING KEONG SIK</h1>
+                <h2>Visual Artist</h2>
+                <div class="d-flex flex-row p-0 m-0 mt-5">
+                  <img
+                    src="sourse/Instagram.svg"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                  <a
+                    class="social_link my-auto pl-2"
+                    href="https://www.instagram.com/ting_ting.k.s/"
+                    target="blank"
+                  >
+                    @ting_ting.k.s
+                  </a>
+                </div>
+                <div class="d-flex flex-row p-0 m-0 mt-2">
+                  <img
+                    src="sourse/Whatsapp.svg"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                  <a
+                    class="social_link my-auto pl-2"
+                    href="https://wa.me/c/60127092055"
+                    target="blank"
+                  >
+                    wa.me/c/60127092055
+                  </a>
+                </div>
+                <div class="d-flex flex-row p-0 m-0 mt-2">
+                  <img
+                    src="sourse/Facebook-messenger.svg"
+                    class="img-fluid"
+                    alt="Placeholder image"
+                  />
+                  <a
+                    class="social_link my-auto pl-2"
+                    href="https://m.me/tingting.k.s0215"
+                    target="blank"
+                    >m.me/tingting.k.s0215</a
+                  >
+                </div>
               </div>
-              <div class="d-flex flex-row p-0 m-0 mt-2">
-                <img src="sourse/Whatsapp.svg" class="img-fluid" alt="Placeholder image" />
-                <p class="social_link my-auto pl-2" href="https://wa.me/c/60127092055" target="blank">
-                  wa.me/c/60127092055
-                </p>
+            </div>
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">EDUCATION</h1>
+                <div class="hl"></div>
               </div>
-              <div class="d-flex flex-row p-0 m-0 mt-2">
-                <img src="sourse/Facebook-messenger.svg" class="img-fluid" alt="Placeholder image" />
-                <a class="social_link my-auto pl-2" href="https://m.me/tingting.k.s0215"
-                  target="blank">m.me/tingting.k.s0215</a>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2015 - 2020</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    Sekolah Menengah Kebangsaan Skudai
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">Skudai, Johor</h2>
+                </div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2021 - present</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">Multimedia University</h1>
+                  <h2 class="sm_text ml-auto mb-0">Cyberjaya, Selangor</h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">EXPERIENCE</h1>
+                <div class="hl"></div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2017 - 2019</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    High School Videographer & Video Editor
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
+                </div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2021 - present</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">Freelancer</h1>
+                  <h2 class="sm_text ml-auto mb-0">
+                    Videographer, Video Editor, 3DArtist
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">ACHIEVEMENT</h1>
+                <div class="hl"></div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2019</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    1st Place in Video & Poster Competition
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">UTM, Johor</h2>
+                </div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2020</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    1st Place in Pertandingan Video Digital Stay-at-home Covid19
+                    (Kebangsaan)
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">USM, Pulau Pinang</h2>
+                </div>
               </div>
             </div>
           </div>
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center">
-              <h1 class="resume_title">EDUCATION</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2015 - 2020</h1>
+          <div class="col-xl-6 pl-4">
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">ORGANISZATION</h1>
+                <div class="hl"></div>
               </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  Sekolah Menengah Kebangsaan Skudai
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">Skudai, Johor</h2>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2016 - 2019</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    Committee member of Computer Club
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
+                </div>
               </div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2021 - present</h1>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2019 - 2020</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    Head of Digital Committee
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
+                </div>
               </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">Multimedia University</h1>
-                <h2 class="sm_text ml-auto mb-0">Cyberjaya, Selangor</h2>
-              </div>
-            </div>
-          </div>
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center">
-              <h1 class="resume_title">EXPERIENCE</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2017 - 2019</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  High School Videographer & Video Editor
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-5 d-flex">
+                  <h1 class="date mb-0">2021 - present</h1>
+                </div>
+                <div class="col-xl-7 d-flex flex-column">
+                  <h1 class="lg_text ml-auto mb-2">
+                    Committee member of Creative Multimedia Club
+                  </h1>
+                  <h2 class="sm_text ml-auto mb-0">Multimedia University</h2>
+                </div>
               </div>
             </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2021 - present</h1>
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">SKILLS</h1>
+                <div class="hl"></div>
               </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">Freelancer</h1>
-                <h2 class="sm_text ml-auto mb-0">
-                  Videographer, Video Editor, 3DArtist
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center">
-              <h1 class="resume_title">ACHIEVEMENT</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2019</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  1st Place in Video & Poster Competition
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">UTM, Johor</h2>
-              </div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2020</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  1st Place in Pertandingan Video Digital Stay-at-home Covid19
-                  (Kebangsaan)
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">USM, Pulau Pinang</h2>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-4 d-flex flex-column mr-auto">
+                  <h1 class="skills_type">PERSONAL</h1>
+                  <p class="skills mt-1">
+                    3D Modeling <br />3D Rendering <br />Video Editing
+                    <br />Videography <br />Photography <br />
+                    HTML & CSS <br />Graphic Design<br />Music Production
+                    <br />Time Management <br />Honesty & Positivity
+                  </p>
+                </div>
+                <div class="col-xl-8 d-flex flex-column pl-0">
+                  <h1 class="skills_type">COMPUTER</h1>
+                  <div class="row mt-1">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Blender</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Autodesk Maya</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 65%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Autodesk Arnold</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Cinema 4D</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 45%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Zbrush</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 55%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Adobe Photoshop</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Adobe Illustrator</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Adobe Premiere Pro</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 90%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Adobe After Effect</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 60%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Foundry Nuke</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 40%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Substance Painter</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 75%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Microsoft Office</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Figma</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 80%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 d-flex">
+                      <p class="skills m-0">Fl Studio</p>
+                    </div>
+                    <div class="col-xl-6 d-flex pl-0">
+                      <div class="w3-border w-100 my-auto">
+                        <div
+                          class="w3-grey"
+                          style="height: 6px; width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-6 pl-4">
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center">
-              <h1 class="resume_title">ORGANISZATION</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2016 - 2019</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  Committee member of Computer Club
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
-              </div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2019 - 2020</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  Head of Digital Committee
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
-              </div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex">
-                <h1 class="date mb-0">2021 - present</h1>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="lg_text ml-auto mb-2">
-                  Committee member of Creative Multimedia Club
-                </h1>
-                <h2 class="sm_text ml-auto mb-0">Multimedia University</h2>
-              </div>
-            </div>
-          </div>
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center">
-              <h1 class="resume_title">SKILLS</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3">
-              <div class="col-xl-5 d-flex flex-column mr-auto">
-                <h1 class="skills_type">PERSONAL</h1>
-                <p class="skills">3D Modelling <br>3D Rendering <br>Video Editing <br>Videography <br>Photography 
-                  <br>Music Production <br>Time Management <br>Honesty & Positivity
-                </p>
-              </div>
-              <div class="col-xl-7 d-flex flex-column">
-                <h1 class="skills_type">
-                  COMPUTER
-                </h1>
-
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
-  </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
 
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-4.4.1.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
