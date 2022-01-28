@@ -9,6 +9,7 @@
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/compare-img.css">
     <link
       rel="icon"
       href="sourse/J3_logo-01.svg"
@@ -29,41 +30,43 @@
         id="navbarSupportedContent1"
       >
         <a class="navbar-brand" href="index.html">J3on.</a>
-        <ul
-          id="navbar-list"
-          class="navbar-nav d-flex flex-row mx-5 justify-content-around py-0"
-          style="width: 0; overflow: hidden"
-        >
-          <li class="nav-item active zoom">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active zoom">
-            <a class="nav-link" href="#resume"
-              >Resume <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active zoom">
-            <a class="nav-link" href="#"
-              >2D <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active zoom">
-            <a class="nav-link" href="#"
-              >3D <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active zoom">
-            <a class="nav-link" href="#"
-              >Contact <span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-        <div id="nav-icon1">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div style="flex: 1" class="d-flex align-items-center justify-content-end">
+          <ul
+            id="navbar-list"
+            class="navbar-nav d-flex flex-row mx-5 justify-content-around py-0"
+            style="width: 0; overflow: hidden"
+          >
+            <li class="nav-item active zoom">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active zoom">
+              <a class="nav-link" href="#resume"
+                >Resume <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active zoom">
+              <a class="nav-link" href="#2D"
+                >2D <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active zoom">
+              <a class="nav-link" href="#"
+                >3D <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active zoom">
+              <a class="nav-link" href="#"
+                >Contact <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </nav>
@@ -188,7 +191,8 @@
                 </div>
                 <div class="col-xl-7 d-flex flex-column">
                   <h1 class="lg_text ml-auto mb-2">
-                    Participated in LEVEL UP @ SCHOOLS (Game Development Workshop)
+                    Participated in LEVEL UP @ SCHOOLS (Game Development
+                    Workshop)
                   </h1>
                   <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
                 </div>
@@ -227,7 +231,7 @@
                 </div>
                 <div class="col-xl-7 d-flex flex-column">
                   <h1 class="lg_text ml-auto mb-2">
-                    1st Place in Pertandingan Video & Poster <br>
+                    1st Place in Pertandingan Video & Poster <br />
                     Karnival Lestari Iskandar Puteri
                   </h1>
                   <h2 class="sm_text ml-auto mb-0">UTM, Johor</h2>
@@ -239,9 +243,12 @@
                 </div>
                 <div class="col-xl-7 d-flex flex-column">
                   <h1 class="lg_text ml-auto mb-2">
-                    1st Place in Projek Video Digital Karnival STEM (Daerah Johor Bahru)
+                    1st Place in Projek Video Digital Karnival STEM (Daerah
+                    Johor Bahru)
                   </h1>
-                  <h2 class="sm_text ml-auto mb-0">SMK Bandar Uda Utama, Johor</h2>
+                  <h2 class="sm_text ml-auto mb-0">
+                    SMK Bandar Uda Utama, Johor
+                  </h2>
                 </div>
               </div>
               <div class="row resume_table mt-3">
@@ -315,7 +322,7 @@
                 </div>
                 <div class="col-xl-7 d-flex flex-column">
                   <h1 class="lg_text ml-auto mb-2">
-                    Member of the photography committee <br>
+                    Member of the photography committee <br />
                     (Sidang Redaksi Majalah Era 2019)
                   </h1>
                   <h2 class="sm_text ml-auto mb-0">SMK Skudai</h2>
@@ -334,7 +341,7 @@
               </div>
             </div>
             <div class="p-0 m-0 mt-5">
-              <div class="p-0 m-0 d-flex align-items-center">
+              <div id="skills" class="p-0 m-0 d-flex align-items-center">
                 <h1 class="resume_title">SKILLS</h1>
                 <div class="hl"></div>
               </div>
@@ -533,40 +540,68 @@
                     </div>
                   </div>
                 </div>
-                
+              </div>
+            </div>
+            <div class="p-0 m-0 mt-5">
+              <div class="p-0 m-0 d-flex align-items-center">
+                <h1 class="resume_title">LANGUAGE</h1>
+                <div class="hl"></div>
+              </div>
+              <div class="row resume_table mt-3">
+                <div class="col-xl-6 pr-1">
+                  <p class="ml-auto lang">
+                    Mandarin <br />
+                    English <br />
+                    Bahasa Melayu
+                  </p>
+                </div>
+                <div class="col-xl-6 pl-1">
+                  <p class="lang_2">
+                    - Native <br />
+                    - Active & Passive <br />
+                    - Active & Passive
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="p-0 m-0 mt-5">
-            <div class="p-0 m-0 d-flex align-items-center ">
-              <h1 class="resume_title">LANGUAGE</h1>
-              <div class="hl"></div>
-            </div>
-            <div class="row resume_table mt-3 ">
-              <div class="col-xl-6 pr-1">
-                <p class="ml-auto lang">
-                  Mandarin <br>
-                  English <br>
-                  Bahasa Melayu
-                </p>
-              </div>
-              <div class="col-xl-6 pl-1">
-                <p class="lang_2">
-                  - Native <br>
-                  - Active & Passive <br>
-                  - Active & Passive
-                </p>
-              </div>
-            </div>
-        </div>
         </div>
       </div>
     </div>
 
+    <div id="2D" class="container-fluid">
+      <div class="twoD p-0 m-0">
+        <img src="sourse/Title_bg.svg" />
+        <section class="d-flex flex-column align-items-center twoD_text">
+        <h1>2D Artworks</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+          totam voluptatem natus quos alias! Culpa similique pariatur molestiae
+          quasi ducimus.
+        </p>
+      </section>
+      </div>
+    </div>
+    <div class="comparison-slider-wrapper container-fluid">
+      <!-- Comparison Slider - this div contain the slider with the individual images captions -->
+      <div class="comparison-slider">
+          <img src="sourse/Batman_Lego02.png">   
+          <div class="resize">
+            <img src="sourse/Batman_Lego_gs.png">
+          </div>
+          <!-- Divider where user will interact with the slider -->
+          <div class="divider"></div>
+      </div>
+    </div>
+    
 
     <!-- Footer Session -->
+    <!-- <footer class="d-flex justify-content-center align-items-center m-0 p-0">
+      <div class="container-fluid footer d-flex p-0 m-0">
 
+      </div>
+    </footer> -->
 
-    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.4.1.min.js"></script>
 
@@ -577,5 +612,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="js/main.js"></script>
-   </body>
+    <script src="js/compare-img.js"></script>
+  </body>
 </html>

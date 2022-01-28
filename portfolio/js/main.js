@@ -5,10 +5,28 @@ $(document).ready(function () {
   });
 });
 
+// gsap.registerPlugin(ScrollTrigger);
+
+// gsap.to(".art_works img", {
+//   x: 400,
+//   scrollTrigger: {
+//     trigger: ".artworks",
+//     start: "bottom bottom",
+//     end: "top 100px",
+//   },
+// });
+
+// const anim = gsap.to(".artworks img", {
+//   x: 400,
+//   duration: 3,
+// });
+
+// ScrollTrigger.create({
+//   trigger: ".art_works",
+//   animation: anim,
+// });
+
 var tl = new TimelineMax({});
-tl.set("#nav-icon1", { clearProps: "all" }).set("#nav-icon1 span", {
-  clearProps: "all",
-});
 
 tl.fromTo(
   ".hero_bg",
@@ -55,14 +73,25 @@ tl.fromTo(
   .fromTo(
     ".down_button",
     1,
-    { top: '88%', opacity: 0, },
-    { top: '92%', opacity: 1, ease: Power2.easeInOut },
+    { top: "88%", opacity: 0 },
+    { top: "92%", opacity: 1, ease: Power2.easeInOut },
     "-=0.5"
   )
   .fromTo(
     "#resume",
     1,
-    { opacity: 0, },
+    { opacity: 0 },
     { opacity: 1, ease: Power2.easeInOut },
     "-=1.5"
   )
+  .fromTo(
+    ".twoD",
+    1,
+    { opacity: 0 },
+    { opacity: 1, ease: Power2.easeInOut },
+    "-=1.5"
+  );
+
+
+
+// .from(".w3-border", { opacity: 0, duration: 1.5 })

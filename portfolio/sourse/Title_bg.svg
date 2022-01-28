@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 367">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #fbf229;
+      }
+
+      .cls-2 {
+        stroke-width: 8px;
+      }
+
+      .cls-3 {
+        fill: #363636;
+      }
+
+      .cls-4 {
+        stroke-width: 40px;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-5 {
+        stroke: #363636;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g class="cls-1">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <circle class="cls-2" cx="1929.9" cy="33.9" r="200.7"/>
+        <circle class="cls-2" cx="1929.9" cy="33.9" r="270.1" transform="translate(541.3 1374.6) rotate(-45)"/>
+        <path class="cls-2" d="M1929.9,269.3c-129.8,0-235.4-105.6-235.4-235.4s105.6-235.4,235.4-235.4S2165.3-95.9,2165.3,33.9,2059.7,269.3,1929.9,269.3Z"/>
+        <circle class="cls-2" cx="1929.9" cy="33.9" r="200.7"/>
+        <circle class="cls-2" cx="1929.9" cy="33.9" r="163.5"/>
+        <circle class="cls-2" cx="1929.9" cy="33.9" r="129.4"/>
+      </g>
+      <circle class="cls-3" cx="1713.6" cy="253.7" r="65.9"/>
+      <circle class="cls-4" cx="366.4" cy="367.3" r="176.4" transform="translate(-152.4 366.6) rotate(-45)"/>
+      <g>
+        <polyline class="cls-5" points="64.8 240 89.1 268.9 113.4 240 137.7 268.9 162.1 240 186.4 268.9 210.7 240 235 268.9 259.3 240 283.7 268.9 308 240"/>
+        <polyline class="cls-5" points="64.8 278.3 89.1 307.2 113.4 278.3 137.7 307.2 162.1 278.3 186.4 307.2 210.7 278.3 235 307.2 259.3 278.3 283.7 307.2 308 278.3"/>
+      </g>
+      <g>
+        <polyline class="cls-5" points="1451.8 40 1476.1 68.9 1500.4 40 1524.7 68.9 1549.1 40 1573.4 68.9 1597.7 40 1622 68.9 1646.3 40 1670.7 68.9 1695 40"/>
+        <polyline class="cls-5" points="1451.8 78.3 1476.1 107.2 1500.4 78.3 1524.7 107.2 1549.1 78.3 1573.4 107.2 1597.7 78.3 1622 107.2 1646.3 78.3 1670.7 107.2 1695 78.3"/>
+      </g>
+      <path class="cls-3" d="M565.4,70.4l-16.9,17,17.2,17.2-16.1,16.1-17.2-17.2-17,16.9-15.3-15.3L517,88.2,499.7,70.8l16.1-16.1L533.2,72l16.9-16.9Z"/>
+    </g>
+  </g>
+</svg>
