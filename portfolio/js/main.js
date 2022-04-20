@@ -39,7 +39,7 @@ tl.fromTo(
     ".Hello p",
     1,
     { x: 90, opacity: 0 },
-    { x: -0, opacity: 0.7, ease: Power2.easeInOut },
+    { x: -0, opacity: 0.6, ease: Power2.easeInOut },
     "-=1.2"
   )
   .fromTo(
