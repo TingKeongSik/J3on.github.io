@@ -147,7 +147,7 @@ html {
 .Hello {
   padding-left: 64px;
   position: absolute;
-  top: 36%;
+  top: 34%;
   left: 3%;
 }
 
@@ -179,7 +179,7 @@ html {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
   color: #363636;
   text-align: justify;
