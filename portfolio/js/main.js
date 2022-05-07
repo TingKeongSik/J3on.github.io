@@ -90,8 +90,38 @@ tl.fromTo(
     { opacity: 0 },
     { opacity: 1, ease: Power2.easeInOut },
     "-=1.5"
+  )
+  .fromTo(
+    ".artwork_des",
+    1,
+    { opacity: 0 },
+    { opacity: 1, ease: Power2.easeInOut },
+    "-=1.5"
   );
 
-
-
 // .from(".w3-border", { opacity: 0, duration: 1.5 })
+
+// Video Timestamps
+var tag = document.createElement("script");
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName("script")[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player("player1", {
+    videoId: "YDVlvEJTeKw",
+  });
+}
+function setCurrentTime(slideNum) {
+  var object = [57, 91];
+  player.seekTo(object[slideNum]);
+}
+
+// Facebook video control
+const fb_vid_url = "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBBCCbyEcoWorld%2Fvideos%2F656959062058503%2F&show_text=false&width=560&"
+function fb_set_time(time){
+  // let temp_url = `${fb_vid_url}t=${time}` 
+  // document.querySelector('#player2').setAttribute('src', temp_url)
+  my_video_player.seek(174);
+  my_video_player.play();
+}

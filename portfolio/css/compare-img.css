@@ -17,6 +17,7 @@
   position: relative;
   width: 100%;
   background-color: white;
+  border-radius: 20px;
 }
 .comparison-slider-wrapper .comparison-slider {
   position: relative;
@@ -28,7 +29,7 @@
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 60px;
+  border-radius: 20px;
 }
 .comparison-slider-wrapper .comparison-slider .overlay {
   display: none;
@@ -57,7 +58,7 @@
 }
 .comparison-slider-wrapper .comparison-slider .resize > img {
   display: block;
-  border-radius: 60px;
+  border-radius: 20px;
 }
 .comparison-slider-wrapper .comparison-slider .resize .overlay {
   right: auto;

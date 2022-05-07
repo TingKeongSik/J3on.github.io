@@ -433,3 +433,93 @@ html {
   height: 500px;
   background-color: #363636;
 } */
+
+.artwork_des{
+  height: auto;
+  border-radius: 60px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #363636;
+}
+
+.artwork_des_text h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.artwork_des_text h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  opacity: 80%;
+  margin: -10px 2px;
+}
+
+.artwork_des_text p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 60%;
+  margin: 30px 2px 0px 0px;
+  text-align: justify;
+}
+
+.more_projects{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+  background: transparent;
+  border-radius: 50px;
+  border-color: #fff !important;
+  padding: 8px 30px;
+  opacity: 100%;
+}
+
+.more_projects:hover{
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  border-color: #fff !important;
+  text-decoration: none !important;
+}
+
+.other_project h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.other_project h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  opacity: 80%;
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+
+.other_project p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 60%;
+  margin: 30px 2px 0px 0px;
+  text-align: justify;
+}
