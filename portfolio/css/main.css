@@ -481,7 +481,7 @@ html {
   border-radius: 50px;
   border-color: #fff !important;
   padding: 8px 30px;
-  opacity: 100%;
+  opacity: 75%;
 }
 
 .more_projects:hover{
@@ -492,6 +492,7 @@ html {
   background: transparent !important;
   border-color: #fff !important;
   text-decoration: none !important;
+  opacity: 100% !important;
 }
 
 .other_project h1{
@@ -522,4 +523,90 @@ html {
   opacity: 60%;
   margin: 30px 2px 0px 0px;
   text-align: justify;
+}
+
+/* Footer Section */
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color: black;;
+}
+
+.footer-basic ul {
+  font-family: Montserrat;
+  padding:0;
+  font-style: normal;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:0.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #363636 !important;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:15px;
+}
+
+.footer-basic .social > a {
+  font-family: Montserrat;
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:30px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+/* gallery */
+.gallery{
+  height: auto;
+  border-radius: 60px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #363636;
+}
+
+.gallery h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 100%;
+  text-align: center;
 }

@@ -97,9 +97,23 @@ tl.fromTo(
     { opacity: 0 },
     { opacity: 1, ease: Power2.easeInOut },
     "-=1.5"
+  )
+  .fromTo(
+    ".gallery",
+    1,
+    { opacity: 0 },
+    { opacity: 1, ease: Power2.easeInOut },
+    "-=1.5"
+  )
+  .fromTo(
+    ".footer-basic",
+    1,
+    { opacity: 0 },
+    { opacity: 1, ease: Power2.easeInOut },
+    "-=1.5"
   );
 
-// .from(".w3-border", { opacity: 0, duration: 1.5 })
+
 
 // Video Timestamps
 var tag = document.createElement("script");
